@@ -25,6 +25,7 @@ export default {
   watch: {
     code: function (newValue, oldValue) {
       let tempValue = ''
+      console.log(oldValue)
       for (let i = 0; i < newValue.length; i++) {
         if (i === 5) {
           break
